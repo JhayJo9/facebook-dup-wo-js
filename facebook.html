@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .wrap-contentall{
+            /* color: white; */
+            text-align: center;
+        }
+        .wrap-header{
+            text-align: center;
+            padding: 2rem;
+            background-color: blue;
+            font-size: 40px;
+        }
+        .wrap-paragraph{
+            text-align: center;
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+        .wrap-boxing{
+            box-sizing: content-box;
+            display: block;
+            float: none;
+            line-height: 16.0833px;
+            /* background-color: black; */
+            position: static;
+            z-index: auto;
+            height: 496px;
+            width: 396px;
+            display: inline-block;
+            border-radius: 6px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 8px 16px;
+            
+        }
+        .wrap-box1{
+            padding-top: 2rem;
+            border-radius: 6px;
+
+        }
+        .inputtext{
+            padding: 10px 0px;
+            margin: auto;
+            width: 360px;
+            border-radius: 6px;
+            font-size: 17px;
+        }
+        
+        .btn-child{
+            padding: 15px 0px;
+            margin: auto;
+            width: 360px;
+            font-size: 17px;
+            border-radius: 6px;
+            background-color: blue;
+            
+        }
+        .wrap-paragraph1{
+            color: blue;
+            padding: 2rem;
+        }
+        .wrap-paragraph2 {
+            color: white;
+
+        }
+        .line{
+            padding: 0.5rem;
+        }
+        .btn-child1{
+            padding: 10px 0px;
+            width: 200px;
+            margin: auto;
+            font-size: 17px;
+            background-color: blue;
+            border-radius: 6px;
+        }
+        .wrap-paragraph3{
+            color: white;
+            
+        }
+        .wrap-help{
+            padding: 2rem;
+            color: blue;
+        }
+        @media only screen and (max-width: 550px) {
+            .wrap-header{
+                font-size: 17px;
+                padding: 1.5rem;
+            }
+            .wrap-paragraph{
+                padding: 1rem;
+            }
+           .btn-child{
+             width: 300px;
+           }
+            .inputtext{
+                width: 300px;
+            }
+           .wrap-boxing{
+            box-sizing: content-box;
+            display: block;
+            float: none;
+            line-height: 16.0833px;
+            /* background-color: black; */
+            position: static;
+            z-index: auto;
+            height: 496px;
+            width: 350px;
+            display: inline-block;
+            border-radius: 6px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 8px 16px;
+           }
+        }
+        @media only screen and (max-width: 400px) {
+            .wrap-boxing{
+                width: 300px;
+            }
+            .btn-child{
+                width: 250px;
+            }
+            .inputtext{
+                width: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap-contentall">
+        <div class="wrap-header">
+          <h2>Facebook</h2>
+        </div>
+        <div class="wrap-paragraph">
+            <h3>Connect with friends and the world around you on Facebook.</h3>
+        </div>
+        <div class="wrap-boxing">
+            <div class="wrap-box1">
+                <input id="email" class="inputtext"
+                type="text" name="email" data-textid="royal_email" placeholder="Email of phone number"
+                autofocus="1" aria-label="Email or phone number">
+            </div>
+            <div class="wrap-box1">
+                <input id="email" class="inputtext"
+                type="text" name="password" data-textid="royal_email" placeholder="Password"
+                autofocus="1" aria-label="Password">
+            </div>
+            <div class="wrap-box1">
+                <button class="btn-child"><p class="wrap-paragraph2">Log in</p></button>
+            </div>
+            <div class="wrap-paragraph1">
+                <!-- put clickable button -->
+                <p> Forget password?</p>
+            </div>
+            <div class="line">
+                <hr>
+            </div>
+            <div class="wrap-box1">
+                <button class="btn-child1"><P class="wrap-paragraph3">Create New Account</P></button>
+            </div>
+            <div class="wrap-help">
+                    <!-- put clickable button -->
+                    <p>Need help?</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
